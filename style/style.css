@@ -1,0 +1,189 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:active{
+    color: white;
+}
+
+body:hover > .description-hide {
+    animation-name: close;
+    animation-duration: 1s;
+}
+
+.menu {
+    width: 100%;
+    height: 70px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    background-color: #87CEFA;
+    display: flex;
+}
+
+.img_icon {
+    height: 75px;
+    width: 75px;
+    padding: 0px 10px 0px 10px;
+}
+
+.left_menu {
+    position: absolute;
+    right: 15px;
+    display: flex;
+}
+
+.mlmenu {
+    display: none;
+}
+
+.left_menu__text {
+    font-family: 'Jura', sans-serif;
+    font-size: 32px;
+    margin: 15px;
+    text-align: center;
+}
+
+#lmt_end {
+    width: 250px;
+}
+
+.main_2 {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #87CEFA;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 25px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.d-img {
+    width: auto;
+    height: 280px;
+    margin-right: 10px;
+    border-radius: 15px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.d-text {
+    padding: 15px;
+}
+
+.m-img {
+    height: auto;
+    width: 500px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 40px;
+    border-radius: 15px;
+}
+
+.rulesb {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+
+
+
+
+
+.end {
+    background-color: #6D9BB8;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.end_icon {
+    color: white;
+    margin: 10px;
+    font-size: 50px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+    .rules {
+        margin-bottom: 20px;
+    }
+    .left_menu__text {
+        font-size: 16px;
+    }
+    .left_menu {
+        display: none;
+    }
+    .menu {
+        justify-content: center;
+        border-radius: 0px;
+    }
+    .mlmenu {
+        display: flex;
+        width: 100%;
+        height: 55px;
+        background-color: #87CEFA;
+        justify-content: center;
+    }
+    .mlm__text {
+        font-size: 25px;
+        position: relative;
+        margin: 15px 55px 0px 5px;
+        margin-left: 90px;
+    }
+    .left_menu__text{
+        font-size: 25px;
+    }
+    #lmt_end {
+        margin-left: -20px;
+        width: 140px;
+    }
+    .main {
+        height: 500px;
+        margin-top: 10px;
+        margin-bottom: 75px;
+    }
+    .playnow {
+        width: 100%;
+    }
+    .mtext {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .end {
+        position: fixed;
+        bottom: 0px;
+    }
+    .m-img {
+        height: auto;
+        width: 400px;
+        margin-right: 40px;
+        border-radius: 15px;
+    }
+    .d-img {
+        width: auto;
+        height: 200px;
+        margin-right: 10px;
+        border-radius: 15px;
+        margin-left: 35px;
+    }
+    .rulesb {
+        margin-bottom: 85px;
+    }
+}
