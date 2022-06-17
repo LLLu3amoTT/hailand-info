@@ -186,4 +186,7 @@ body:hover > .description-hide {
     .rulesb {
         margin-bottom: 85px;
     }
+    .m-img, .d-img{
+        display: none;
+    }
 }
