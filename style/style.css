@@ -190,3 +190,46 @@ body:hover > .description-hide {
         display: none;
     }
 }
+
+.report {
+    height: 80px;
+    width: 80px;
+    background-color: #87CEFA;
+    border-radius: 100px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    text-align: center;
+    color: white;
+    font-size: 52px;
+}
+
+.report-hide {
+    display: none;
+    height: 400px;
+    width: 320px;
+}
+
+.report-hide::-webkit-scrollbar {
+    width: 0;
+}
+
+.report:hover > .rhide {
+    display: none;
+}
+
+.report:hover > .report-hide {
+    display: flex;
+}
+
+.report:hover {
+    display: flex;
+    margin-right: 0px;
+    height: 410px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+.report-form {
+    margin-left: 10px;
+}
