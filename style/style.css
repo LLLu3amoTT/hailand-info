@@ -96,13 +96,8 @@ body:hover > .description-hide {
 .rulesb {
     display: flex;
     flex-direction: column;
-    margin-bottom: 45px;
+    margin-bottom: 15px;
 }
-
-
-
-
-
 
 .end {
     background-color: #6D9BB8;
@@ -119,6 +114,8 @@ body:hover > .description-hide {
     margin: 10px;
     font-size: 50px;
 }
+
+
 
 .report {
     height: 70px;
@@ -201,10 +198,8 @@ body:hover > .description-hide {
         margin-left: -20px;
         width: 140px;
     }
-    .main {
-        height: 500px;
-        margin-top: 10px;
-        margin-bottom: 75px;
+    .main_2 {
+        margin-bottom: 15px;
     }
     .playnow {
         width: 100%;
@@ -214,7 +209,7 @@ body:hover > .description-hide {
         margin-right: 50px;
     }
     .end {
-        position: fixed;
+        position: static;
         bottom: 0px;
     }
     .m-img {
@@ -231,7 +226,7 @@ body:hover > .description-hide {
         margin-left: 35px;
     }
     .rulesb {
-        margin-bottom: 85px;
+        margin-bottom: 15px;
     }
     .m-img, .d-img{
         display: none;
